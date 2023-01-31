@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;900&display=swap');
+
+body{
+    font-family: 'Montserrat', Sans-serif;   
+    margin: 0px;
+    background: linear-gradient(71.47deg, #202125 21.99%, #2f313f 82.48%, #3d3f4e 100.46%);
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    align-items: center;
+    border-bottom: #e43d3d 1px solid ;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px;
+}
+
+.cabecalho-logo{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    align-items: center;
+    gap:45px;
+}
+
+.cabecalho-menu-item{
+    font-family: Montserrat;
+    color: #fff4f4;
+}
+
+.cabecalho-menu-item:hover{
+    color: #eb2424;
+    transition: 0.3s all;
+}
+
+#login-btn{
+    border: 2px solid #eb2424;
+    border-radius: 15px;
+    padding: 8px 20px;
+}
+
+#login-btn:hover{
+    background-color: #eb2424;
+    color: #ffffff;
+    transition: 0.3s all;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+fieldset{
+    border: none;
+}
+
+input{
+    font-family: 'Montserrat', Sans-serif;   
+    color: #2c2c2c;
+    font-size: 15px;
+}
+
+.form-cadastro{
+    margin:50px 0px 0px 0px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+
+.form-input{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 40px;
+    border: #c5c5c5 1px solid;
+    display: block;
+    width: 300px;
+}
+
+.form-input:hover{
+    border: #e43d3d 2px solid ;
+}
+
+.form-cadastro label{
+    margin-bottom: 5px;
+    color: #fff4f4;
+}
+
+.input-box{
+    display: block;
+    margin: 0.5rem;
+}
+
+.btn-cadastro{
+    background-color: #e43d4b;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Montserrat', Sans-serif; 
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.btn-cadastro:hover{
+    background-color: #ffb1b1;
+    border: none;
+    transition: .5s all;
+}
+
+.welcome-img{
+    width: 500px;
+}
+
+.rodape{
+    border-top: 0.07px solid #eb2424;
+    position:absolute;
+    width: 100%;
+    margin-top: 1px;
+    padding: 30px 0px;
+    block-size: border-box;
+}
+
+.rodape-logo{
+    display:block;
+    margin:0 auto;
+}

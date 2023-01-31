@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;900&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(71.47deg, #24252c 21.99%, #2f313f 82.48%, #3d3f4e 100.46%);
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px;
+}
+
+.cabecalho-logo{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    align-items: center;
+    gap:45px;
+}
+
+.cabecalho-menu-item{
+    font-family: Montserrat;
+    color: #fff4f4;
+}
+
+.cabecalho-menu-item:hover{
+    color: #e43d4b;
+    transition: 0.3s all;
+}
+
+#login-btn{
+    border: 2px solid #e43d4b;
+    border-radius: 15px;
+    padding: 8px 20px;
+}
+
+#login-btn:hover{
+    background-color: #e43d4b;
+    color: #ffffff;
+    transition: 0.3s all;
+}
+
+.conteudo{
+    border-top: 0.07px solid #eb2424;
+}
+
+.conteudo-principal{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-title{
+    font-family: Montserrat;
+    color: #e43d4b;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.main-subtitle{
+    font-family: Montserrat;
+    color: #fff9f9;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.titulo{
+    font-family: Montserrat;
+    color:#be2e2e;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.subtitulo{
+    font-family: Montserrat;
+    color:#fff4f4;
+    font-weight: 200;
+    font-size:20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.submit-btn{
+    width: 170px;
+    background-color: #e43d4b;
+    color:#fff4f4;
+    font-family: Montserrat;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.submit-btn:hover{
+    background-color: #ffaeae;
+    color:#fff4f4;
+    transition: 0.3s all;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.rodape{
+    border-top: 0.07px solid #eb2424;
+    padding: 32px;position:absolute;
+    width: 100%;
+    margin-top: 1px;
+}
+
+.rodape-logo{
+    display:block;
+    margin:0 auto;
+}
+

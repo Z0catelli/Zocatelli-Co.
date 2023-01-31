@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Zocatelli Co. - Adesivos personalizados, polaroids, quadros e ilustrações.">
+<title> Zocatelli Co. Login</title>
+<link rel="stylesheet" href="Cadastro.css">
+<script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img class="cabecalho-logo" src="./Imagens/ZocatelliCoDragonRed.svg" width="200px">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="Index.html">Loja</a>
+            <a class="cabecalho-menu-item" href="https://www.instagram.com/zocatelli.co/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a class="cabecalho-menu-item" id="login-btn" href="Login.html">Já sou cliente</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <fieldset>
+            <form class="form-cadastro">
+                <div class="input-box">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome"class="form-input" name="nome">
+                </div>
+
+                <div class="input-box">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="nome"class="form-input" name="nome">
+                </div>
+
+                <div class="input-box">
+                <label for="email">E-mail</label>
+                <input type="text" id="email"class="form-input" name="email">
+                </div>
+
+                <div class="input-box">
+                <label for="telefone">Telefone</label>
+                <input type="number" id="telefone"class="form-input" name="telefone">
+                </div>
+
+                <div class="input-box">
+                <label for="pass">Senha</label>
+                <input type="password" id="pass"class="form-input" name="pass">
+                </div>
+
+                <div class="input-box">
+                <label for="confirm-pass">Confirme a senha</label>
+                <input type="password" id="confirm-pass"class="form-input" name="confirm-pass">
+                </div> 
+
+                <div class="input-box">
+                <label>Gênero:</label> <br>
+                <label>
+                    <input type="radio" name="sexo" value="M">
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="F">
+                    Feminino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="N">
+                    Prefiro não dizer
+                </label>
+                </div> <br>
+                
+                <input type="submit" value="Cadastre-se" class="btn-cadastro">
+            </form>
+        </fieldset>
+
+        <img class="welcome-img" src="./Imagens/Welcome.svg">
+    </main>
+
+    <footer class="rodape">
+        <img class="rodape-logo" src="./Imagens/ZocatelliCo-White.svg" alt="Logo Zocatelli Co." width="">
+    </footer> 
+</body>
