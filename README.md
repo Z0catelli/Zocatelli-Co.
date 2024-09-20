@@ -3,48 +3,40 @@
 </div>
 
 <div align="center">
-<p> Esse é um projeto experimental para aplicar conceitos de desenvolvimento web, o propósito é desenvolver um website de e-commerce.  </p>
-<i> This is an experimental project to apply web development concepts, the purpose is to develop an e-commerce website. </i>
+<img alt="In Progress Status Yellow Badge" src="https://img.shields.io/badge/Status-Finalizado-green">
+<img src= "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="70px">
+<img src= "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="80px">
 </div>
 
+<div>
+  <h2> Descrição </h2>
+  <p> Zocatelli Co. é uma aplicação web que simula a interface de um site de e-commerce, foi desenvolvido com HTML e CSS. </p>
+</div>
+
+<h2> 📁 Acesso ao Projeto </h2>
+<p>Navegue pelas páginas <a href="https://zocatellicostore.surge.sh/landing_page-darkmode.html" target="_blank">acessando o site</a> ou <a href="https://github.com/Z0catelli/Notenest/archive/refs/heads/main.zip">baixe aqui</a> o repositório.</p>
+
+<div>
+<h2> Interfaces </h2>
+  
 <div align="center">
-<h2> Landing Page </h2>
-<img src="https://user-images.githubusercontent.com/101437257/215357607-0f725b6d-fcd2-47df-84bd-11b345edb12b.jpg" width="1000px">
+<h3> Landing Page </h2>
+  <img src="https://github.com/user-attachments/assets/4d5f194b-e148-4a54-9a3a-37a30bfa2d1b" width="700px">
 </div>
 
 <div align="center">
 <h2> Register </h2>
-<img src="https://user-images.githubusercontent.com/101437257/215357664-714d14da-fd50-4c03-a118-fa785229711a.jpg">
+<img src="https://github.com/user-attachments/assets/6af2fe18-fbe0-4fe3-a7b3-a05c410a85d1" width="700px">
+</div>
 
 <div align="center">
 <h2>Login</h2>
-<img src="https://user-images.githubusercontent.com/101437257/205472946-e5ac52b5-86a7-4114-9692-bc06d9215a10.png">
+<img src="https://github.com/user-attachments/assets/66f4c0be-ffac-4d8c-9908-752913ff5e44" width="700px">
 </div>
 
 <div align="center">
 <h2> Store </h2>
-<p> </p>
-<img src= "https://user-images.githubusercontent.com/101437257/215358106-31f2bbe9-f9f5-46cb-a999-5635ea3e17cc.jpg" >
-<img src= "https://user-images.githubusercontent.com/101437257/215358181-8dfd5a3a-ce78-42bf-8e36-4547e29749cd.jpg" >
-<img src= "https://user-images.githubusercontent.com/101437257/215358182-d32c48f4-1f7a-48c0-8424-1e933a35b0df.jpg" >
+<img src="https://github.com/user-attachments/assets/15a9edea-544a-489c-b67d-a3f9b59f5b1b" width="700px">
+
 </div>
-
-<div align="center">
-<h2> Contact </h2>
-<p> </p>
-<img src= "https://user-images.githubusercontent.com/101437257/215357855-0fa6e355-05cc-4d24-bde4-f42921dc753c.jpg" >
-</div>
-
-
-
-
-<hr>
-
-<div align="center">
-<h2> Linguagens utilizadas: </h2>
-<p> O sistema foi desenvolvido utilizando Java e integrando o banco de dados com MySQL</p>
-<i> The system was developed using Java and integrating the database with MySQL</i>
-<br><br>
-<img src= "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="70px">
-<img src= "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="80px">
 </div>
