@@ -14,7 +14,7 @@
 </div>
 
 <h2> 📁 Acesso ao Projeto </h2>
-<p>Navegue pelas páginas <a href="https://zocatellicostore.surge.sh/landing_page-darkmode.html" target="_blank">acessando o site</a> ou <a href="https://github.com/Z0catelli/Notenest/archive/refs/heads/main.zip">baixe aqui</a> o repositório.</p>
+<p>Navegue pelas páginas <a href="https://zocatellicostore.surge.sh/landing_page-darkmode.html">acessando o site</a> ou <a href="https://github.com/Z0catelli/Notenest/archive/refs/heads/main.zip">baixe aqui</a> o repositório.</p>
 
 <div>
 <h2> Interfaces </h2>
